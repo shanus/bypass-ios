@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.ios.requires_arc = true
   s.compiler_flags = '-stdlib=libc++'
   s.source = {
-    :git => 'https://github.com/shanus/bypass-ios.git'
+    :git => 'https://github.com/shanus/bypass-ios.git',
     :submodules => 'true'
   }
   s.source_files =
